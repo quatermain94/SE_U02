@@ -9,11 +9,14 @@ public class ProjectInterfaceTest {
 
 	@Before
 	public void setUp() throws Exception {
+		simple_example = new Project(
+		        new String[][]{{"A", "C"}, {"C", "D"}, {"B", "C"}}
+		    );
 	}
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void test_simple_example1() {
+		assertFalse(simple_example.isWellSorted(new String[]));
 	}
 
 }
