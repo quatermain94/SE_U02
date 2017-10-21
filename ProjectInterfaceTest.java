@@ -6,6 +6,8 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class ProjectInterfaceTest {
+	
+	Project simple_example;
 
 	@Before
 	public void setUp() throws Exception {
