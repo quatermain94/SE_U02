@@ -18,7 +18,7 @@ public class ProjectInterfaceTest {
 
 	@Test
 	public void test_simple_example1() {
-		assertFalse(simple_example.isWellSorted(new String[]));
+		assertFalse(simple_example.isWellSorted(new String[]{}));
 	}
 
 }
